@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms 4 new</title>
+</head>
+<body>
+    <form action="">
+        <table>
+            <tr>
+                <td><lebel>Enter Name:</lebel></td>
+                <td><input type="text" name="name" list="names" required placeholder="Enter your Name"></td>
+            </tr>
+            <tr>
+                <td><label for="">Enter Email:</label></td>
+                <td><input type="email" name="email" required maxlength="15" placeholder="Enter your Email"></td>
+            </tr>
+            <tr>
+                <td><label for="">Enter Your BirthDate:</label></td>
+                <td><input type="date" name="date" required></td>
+            </tr>
+            <tr>
+                <td><label for="">Enter Your BirthTime:</label></td>
+                <td><input type="time" name="time" required></td>
+            </tr>
+        </table>
+    </form>
+    <datalist id="names">
+        <option>Ajay</option>
+        <option>Soham</option>
+        <option>Rushikesh</option>
+        <option>Pushpak</option>
+        <option>Kedar</option>
+    </datalist>
+</body>
+</html>
